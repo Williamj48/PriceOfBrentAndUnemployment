@@ -1,0 +1,65 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0pt}
+
+\lstset{
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    showstringspaces=false,
+    frame=single,
+    language=Python,
+}
+
+\title{Project 1: Least Squares \\ \large Oil Prices and U.S. Unemployment}
+\author{} % TODO: your name(s)
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+% TODO: 1-2 paragraphs. Overview of experimental question and main conclusions.
+\end{abstract}
+
+\section{Introduction}
+% TODO: utility/importance of curve fitting; brief statement of experimental question.
+
+\section{Methods and Computations}
+
+\subsection{Dataset}
+% TODO: thorough description of the dataset and its provenance (include URLs).
+% Source: FRED (Federal Reserve Economic Data)
+%   - POILBREUSDM: https://fred.stlouisfed.org/series/POILBREUSDM
+%   - UNRATE:      https://fred.stlouisfed.org/series/UNRATE
+
+\subsection{Comparison of Linear Algorithms}
+% TODO: recap the math of normal equations + Cholesky, QR + back-substitution,
+% and the built-in solver. Compare results with figures/tables.
+
+\subsection{Condition Number}
+% TODO: relate cond(A) (and cond(A^T A)) to the stability of each method.
+
+\subsection{Other Curve Fits}
+% TODO: quadratic, cubic, or other nonlinear fits; discuss whether they're
+% reasonable given the data, with figures/tables.
+
+\section{Summary of Results}
+% TODO: discuss findings in relation to the experimental question.
+
+\section{Conclusions}
+% TODO: key takeaways; lessons for interpreting curve fits in the news/media.
+
+\appendix
+\section{Code}
+% TODO: insert full commented code listing, e.g.:
+% \lstinputlisting[language=Python]{oil_unemployment_demo.py}
+
+\end{document}

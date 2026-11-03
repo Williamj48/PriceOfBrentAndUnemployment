@@ -1,0 +1,22 @@
+As the price of oil increases unemployment decreases
+
+REASONING:
+The reason for this is likely that the price of oil is tied
+to the amount of global energy usage, and the more energy
+that is being used is generally indicitive of a good markets
+resulting in a high price of oil to account for the
+increased demand.
+
+Decreased energy usage during times of micro-recessions
+result in the high price of oil, and high unemployment which
+drives the price of brent crude globally down.
+
+ANALYTICS:
+This data was over the course of 10 years
+
+More data would be needed to make this relationship more
+concrete and having 
+
+Summary:
+having the results mapped over many other recession
+indicators would make this a lot stronger of a relationhsip
